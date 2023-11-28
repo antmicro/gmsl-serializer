@@ -1,5 +1,73 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid dbd1044a-3803-4c19-8db2-96636cba7198)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "GSML Serializer ")
+    (date "2023-11-28")
+    (rev "1.1.1")
+    (company "Antmicro Ltd")
+    (comment 1 "www.antmicro.com")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 104.14 135.89) (size 24.13 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5ec47368-f2bc-48df-ac04-8fe6feb94419)
+    (property "Sheet name" "Connectors" (id 0) (at 104.14 135.1784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 104.14 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 167.64 135.89) (size 24.13 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 73fccbdf-b33e-4e7b-8785-600d7c3e8aa2)
+    (property "Sheet name" "Serializer" (id 0) (at 167.64 135.1784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "serializer.kicad_sch" (id 1) (at 167.64 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 135.89 135.89) (size 24.13 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a0eea618-ebab-4bb8-b0df-45f61b300adb)
+    (property "Sheet name" "Supply" (id 0) (at 135.89 135.1784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "supply.kicad_sch" (id 1) (at 135.89 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/5ec47368-f2bc-48df-ac04-8fe6feb94419" (page "2"))
+    (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb" (page "3"))
+    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/5ec47368-f2bc-48df-ac04-8fe6feb94419/35c786b8-46a1-42b1-b865-4f09e9f18fd3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5ec47368-f2bc-48df-ac04-8fe6feb94419/b369fa2a-4982-4d73-baad-a0d9428def32"
+      (reference "J?") (unit 1) (value "Conn_FFC_WE_68715014022") (footprint "antmicro-footprints:Conn_FFC_WE_68715014x22")
+    )
+    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/3912dba8-64dd-4294-a707-01a1f52a27cc"
+      (reference "U?") (unit 1) (value "MAX9295A") (footprint "antmicro-footprints:QFN-32-1EP_5x5mm")
+    )
+  )
 )

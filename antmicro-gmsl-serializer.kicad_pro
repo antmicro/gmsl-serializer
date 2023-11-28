@@ -316,6 +316,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "dbd1044a-3803-4c19-8db2-96636cba7198",
+      ""
+    ],
+    [
+      "5ec47368-f2bc-48df-ac04-8fe6feb94419",
+      "Connectors"
+    ],
+    [
+      "a0eea618-ebab-4bb8-b0df-45f61b300adb",
+      "Supply"
+    ],
+    [
+      "73fccbdf-b33e-4e7b-8785-600d7c3e8aa2",
+      "Serializer"
+    ]
+  ],
   "text_variables": {}
 }
