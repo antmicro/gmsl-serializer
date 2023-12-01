@@ -2002,10 +2002,10 @@
     (uuid ce087c88-ea6c-48d4-add0-6c4540a53cb4)
   )
 
-  (global_label "PoC_12V" (shape input) (at 257.81 96.52 0) (fields_autoplaced)
+  (global_label "SIO_P" (shape input) (at 257.81 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid dfa92dc7-e5c7-4bc4-8ada-a75a3df9cb71)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 268.3874 96.4406 0)
+    (uuid 9e396fbe-860d-4ab3-888c-8f558b029e8e)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 265.6055 96.4406 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
