@@ -7,7 +7,7 @@
   (title_block
     (title "GSML Serializer ")
     (date "2023-11-28")
-    (rev "1.1.1")
+    (rev "1.0.0")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
   )
