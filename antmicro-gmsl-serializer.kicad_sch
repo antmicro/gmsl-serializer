@@ -2156,6 +2156,9 @@
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/4d0983b1-66c7-4200-8684-6aa23522a8b9"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/4d1a3402-04a3-40df-a2b2-d8d8ae84305d"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/511cada6-4f34-4200-99c4-c562da9f7876"
       (reference "#PWR?") (unit 1) (value "+1V2") (footprint "")
     )
@@ -2189,6 +2192,9 @@
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/8bf713bc-cb56-4b8b-a038-699194bc7ae7"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/8c1b751c-af77-40ed-a2ee-d2a33b21e79a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/8c629aeb-2cd2-48b2-b2a0-1d91ba74ad2a"
       (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
     )
@@ -2220,6 +2226,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/d08dff9d-0680-4413-88b8-77476a3ec323"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/d8b1e001-d4ae-4bbe-a803-a371d3ab6a59"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/d8d74570-ae41-4d4d-99ea-e46e1600e848"
@@ -2308,6 +2317,9 @@
     )
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/974fd054-1658-41e6-b24a-c6bd51669dea"
       (reference "C?") (unit 1) (value "C_10n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
+    )
+    (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/9952e53a-f8ab-49de-ad76-23382f550963"
+      (reference "C?") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/a074d453-09c7-48ac-99d9-84092f5093aa"
       (reference "C?") (unit 1) (value "C_1u_16V_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
@@ -2491,6 +2503,9 @@
     )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/d7a89559-f99c-40d8-9ea8-80f2f902a051"
       (reference "U?") (unit 1) (value "AP62301_TSOT") (footprint "antmicro-footprints:TSOT23-6")
+    )
+    (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/ecfa694f-cbdc-4f3e-a7f3-c85f37baa62b"
+      (reference "U?") (unit 1) (value "REF3025AIDBZT ") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/e2b3366f-51a8-49ab-81f9-8253d8a0366a"
       (reference "Y?") (unit 1) (value "Resonator_25MHz_ABM8G") (footprint "antmicro-footprints:Oscillator_SMD_Geyer_KX-7-4Pin_3.2x2.5mm")
