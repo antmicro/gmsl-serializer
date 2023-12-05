@@ -2453,6 +2453,12 @@
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/f1d69234-a0db-4f65-9c80-74a6d2f0c59d"
       (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
+    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/0d18b127-a04c-4e55-8b10-f6524e9ac59b"
+      (reference "TP?") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
+    )
+    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/0dd6521a-6089-4b0f-967f-032d5b4b3f91"
+      (reference "TP?") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
+    )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/1ac1fcdc-4e71-44a2-8d0a-e4af858a97bc"
       (reference "TP?") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
@@ -2460,6 +2466,9 @@
       (reference "TP?") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/598bf4b7-82b2-4c22-8e34-5800da73b018"
+      (reference "TP?") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
+    )
+    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/9e65c05d-bed1-4cf1-ae92-20f7f7ee3c34"
       (reference "TP?") (unit 1) (value "TP_1.5mm_SMD") (footprint "antmicro-footprints:TP_SMD_1.5mm")
     )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/bd45ce59-1c3d-4843-8cf5-a7ea32207ace"
