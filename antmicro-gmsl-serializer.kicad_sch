@@ -2585,8 +2585,8 @@
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/ffc884d6-80df-4e57-b67f-47f0e07433b8"
       (reference "C?") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
-    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/a0ab68c4-cf9f-4af5-b8dc-a6877a2a7f28"
-      (reference "D?") (unit 1) (value "PESD5V0X1UB") (footprint "antmicro-footprints:SOD-523")
+    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/47aae2e8-fffe-4fdd-9b45-a232f1d055ce"
+      (reference "D?") (unit 1) (value "AXGD10402KR") (footprint "antmicro-footprints:DIONM105X51N")
     )
     (path "/5ec47368-f2bc-48df-ac04-8fe6feb94419/8362ce0e-070d-4412-9ef7-49ac3fbfe25e"
       (reference "J?") (unit 1) (value "Conn_FAKRA_2FAI-NZSP-PCBB6") (footprint "antmicro-footprints:Conn_FAKRA_59S2AQ-40MT5-Z_1")
@@ -2654,6 +2654,9 @@
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/9b7de60b-9d48-47d5-b695-7eb55b37c3e1"
       (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
+    (path "/5ec47368-f2bc-48df-ac04-8fe6feb94419/a116bc2d-b33a-4a53-9fe3-88155eb7fd48"
+      (reference "R?") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
+    )
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/a99e4146-63ad-46b8-b806-710c83bcb3c5"
       (reference "R?") (unit 1) (value "R_51R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
@@ -2683,6 +2686,9 @@
     )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/e80718e7-b6d4-4f1d-918a-18094dd18101"
       (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
+    )
+    (path "/5ec47368-f2bc-48df-ac04-8fe6feb94419/ec8f35f1-6851-4dba-b2cb-69a0e8059dd2"
+      (reference "R?") (unit 1) (value "R_100R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/f1d69234-a0db-4f65-9c80-74a6d2f0c59d"
       (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
