@@ -485,10 +485,21 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z90_outer",
-        "nets": [],
+        "nets": [
+          "CSI_CLK_N",
+          "CSI_CLK_P",
+          "CSI_D0_N",
+          "CSI_D0_P",
+          "CSI_D1_N",
+          "CSI_D1_P",
+          "CSI_D2_N",
+          "CSI_D2_P",
+          "CSI_D3_N",
+          "CSI_D3_P"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.215,
+        "track_width": 0.155,
         "via_diameter": 0.6,
         "via_drill": 0.35,
         "wire_width": 6.0
