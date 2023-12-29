@@ -3987,6 +3987,12 @@
     (path "/dbc6a5c8-e07b-4555-8e22-6830187dd63a"
       (reference "#PWR0157") (unit 1) (value "GND") (footprint "")
     )
+    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/1e69892a-6df5-4966-bb1b-9db813a21196"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/73fccbdf-b33e-4e7b-8785-600d7c3e8aa2/b7dd7af8-97f9-474f-814e-a256273784a8"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/a0eea618-ebab-4bb8-b0df-45f61b300adb/f8cefd89-08db-4a81-83f6-63a8def027b4"
       (reference "C1") (unit 1) (value "C_10u_25V_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
