@@ -3787,7 +3787,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3c95b3f8-47bd-410c-804f-d9f047f9b390)
   )
-  (text "To enable internal 1V LDO:\nREG_ENABLE = 1 \nREG_MNL = 1"
+  (text "To enable internal 1V LDO:\nREG_ENABLE (0x10 b2) = 1 \nREG_MNL (0x12 b4) = 1"
     (at 124.46 94.615 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4e040c11-9957-4484-86f1-a7d7fe3b1aa6)
