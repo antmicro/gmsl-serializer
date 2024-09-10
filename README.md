@@ -2,7 +2,7 @@
 
 Copyright (c) 2023-2024 [Antmicro](https://www.antmicro.com)
 
-![](img/gmsl-serializer-visualization.png)
+![](assets/previews/leftT.png)
 
 ## Overview
 
