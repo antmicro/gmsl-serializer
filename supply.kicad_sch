@@ -82,75 +82,6 @@
         )
       )
     )
-    (symbol "antmicroCapacitors0402:C_10n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 20.32 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Value" "C_10n_0402" (at 20.32 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 20.32 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R71H103KA88%23" (at 20.32 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "MPN" "GRM155R71H103KA88D" (at 20.32 -17.78 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Manufacturer" "Murata" (at 20.32 -20.32 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (at 20.32 -22.86 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (at 20.32 -25.4 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Val" "10n" (at 20.32 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Voltage" "50V" (at 20.32 -27.94 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "Dielectric" "X7R" (at 20.32 -30.48 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_10n_0402_0_1"
-        (polyline
-          (pts
-            (xy 2.032 -1.524)
-            (xy 2.032 1.524)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.048 -1.524)
-            (xy 3.048 1.524)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_10n_0402_1_1"
-        (pin passive line (at 0 0 0) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "antmicroCapacitors0402:C_1u_16V_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -561,78 +492,6 @@
         )
       )
     )
-    (symbol "antmicroFixedInductors:L_22u_1.12A_Coilcraft-MSS6132T" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at 13.97 0 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Value" "L_22u_1.12A_Coilcraft-MSS6132T" (at 13.97 -2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Footprint" "antmicro-footprints:L_Coilcraft-MSS6132T" (at 13.97 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "https://www.coilcraft.com/getmedia/d035c9b3-191d-46aa-ab3f-5c1a849157c1/mss6132t.pdf" (at 13.97 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Val" "22u/1.12A" (at 13.97 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Manufacturer" "Coilcraft" (at 13.97 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "MPN" "MSS6132T-223" (at 13.97 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "ISat" "1.12A" (at 13.97 -16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "IMax" "1.45A" (at 13.97 -20.32 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Size" "6.1x6.1" (at 13.97 -22.86 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (at 13.97 -25.4 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (at 13.97 -27.94 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "ki_keywords" "SMT, INDUCTOR, PASSIVE" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power Inductor (SMT), 22 µH, 1.85 A, Shielded, 2.45 A, WE-MAPI" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "L_22u_1.12A_Coilcraft-MSS6132T_0_1"
-        (arc (start 1.524 0) (mid 1.016 0.5058) (end 0.508 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 2.54 0) (mid 2.032 0.5058) (end 1.524 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 3.556 0) (mid 3.048 0.5058) (end 2.54 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 4.572 0) (mid 4.064 0.5058) (end 3.556 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "L_22u_1.12A_Coilcraft-MSS6132T_1_1"
-        (pin passive line (at 0 0 0) (length 0.508)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 0.508)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "antmicroFixedInductors:L_3u3_3.1A_Bourns-SRP3212A" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at 13.97 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -695,150 +554,6 @@
         )
       )
       (symbol "L_3u3_3.1A_Bourns-SRP3212A_1_1"
-        (pin passive line (at 0 0 0) (length 0.508)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 0.508)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicroFixedInductors:L_470n_1A_Coilcraft-PFL1609" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at 13.97 0 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Value" "L_470n_1A_Coilcraft-PFL1609" (at 13.97 -2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Footprint" "antmicro-footprints:L_Coilcraft-PFL1609" (at 13.97 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "https://www.coilcraft.com/getmedia/2f4cd442-d64d-4413-a518-12fcfd03318d/pfl1609.pdf" (at 13.97 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Val" "470n/0.99A" (at 13.97 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Manufacturer" "Coilcraft" (at 13.97 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "MPN" "PFL1609-471" (at 13.97 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "ISat" "0.99 A" (at 13.97 -16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "IMax" "1 A" (at 13.97 -20.32 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Size" "1.07x1.8" (at 13.97 -22.86 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (at 13.97 -25.4 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (at 13.97 -27.94 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "ki_keywords" "SMT, INDUCTOR, PASSIVE" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "L_470n_1A_Coilcraft-PFL1609_0_1"
-        (arc (start 1.524 0) (mid 1.016 0.5058) (end 0.508 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 2.54 0) (mid 2.032 0.5058) (end 1.524 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 3.556 0) (mid 3.048 0.5058) (end 2.54 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 4.572 0) (mid 4.064 0.5058) (end 3.556 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "L_470n_1A_Coilcraft-PFL1609_1_1"
-        (pin passive line (at 0 0 0) (length 0.508)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 0.508)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicroFixedInductors:L_6u8_1A_Coilcraft-1210POC" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at 13.97 0 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Value" "L_6u8_1A_Coilcraft-1210POC" (at 13.97 -2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Footprint" "antmicro-footprints:L_Coilcraft-1210POC" (at 13.97 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "https://www.coilcraft.com/getmedia/5e8de018-68c5-4442-84ce-d5212c44660c/1210poc.pdf" (at 13.97 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Val" "6u8/1A" (at 13.97 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Manufacturer" "Coilcraft" (at 13.97 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "MPN" "1210POC-682" (at 13.97 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "ISat" "1 A" (at 13.97 -16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "IMax" "1.36 A" (at 13.97 -20.32 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Size" "2.67x3.3" (at 13.97 -22.86 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (at 13.97 -25.4 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (at 13.97 -27.94 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "ki_keywords" "SMT, INDUCTOR, PASSIVE" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "L_6u8_1A_Coilcraft-1210POC_0_1"
-        (arc (start 1.524 0) (mid 1.016 0.5058) (end 0.508 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 2.54 0) (mid 2.032 0.5058) (end 1.524 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 3.556 0) (mid 3.048 0.5058) (end 2.54 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 4.572 0) (mid 4.064 0.5058) (end 3.556 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "L_6u8_1A_Coilcraft-1210POC_1_1"
         (pin passive line (at 0 0 0) (length 0.508)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1498,60 +1213,6 @@
         )
       )
     )
-    (symbol "antmicroResistors0402:R_5k1_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 20.32 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Value" "R_5k1_0402" (at 20.32 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 20.32 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 20.32 -17.78 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "MPN" "CR0402-FX-5101GLF" (at 20.32 -20.32 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Manufacturer" "Bourns" (at 20.32 -22.86 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (at 20.32 -25.4 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (at 20.32 -27.94 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Val" "5k1" (at 20.32 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Tolerance" "1%" (at 20.32 -10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_5k1_0402_0_1"
-        (rectangle (start 0.635 0.889) (end 4.445 -0.889)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_5k1_0402_1_1"
-        (pin passive line (at 0 0 0) (length 0.635)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 0.635)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "antmicroResistors0603:R_0R_22.4A_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 15.24 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2154,9 +1815,6 @@
   (junction (at 154.94 217.17) (diameter 0) (color 0 0 0 0)
     (uuid 3309d807-d2ae-4301-9e33-e8281eea0d3b)
   )
-  (junction (at 137.16 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 337f72f9-4831-4bec-aa27-088918c15e18)
-  )
   (junction (at 270.51 127) (diameter 0) (color 0 0 0 0)
     (uuid 37138c87-534c-4aa8-aaca-91bbd53e163f)
   )
@@ -2175,9 +1833,6 @@
   (junction (at 77.47 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 70e3ba99-4a1a-47c5-a93d-741d3154c150)
   )
-  (junction (at 149.86 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 750b5ec3-a053-4984-9809-351b8a7e0e26)
-  )
   (junction (at 162.56 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 78f7a15a-217f-451e-bac0-231f029e3b5f)
   )
@@ -2187,14 +1842,8 @@
   (junction (at 278.13 127) (diameter 0) (color 0 0 0 0)
     (uuid 7b073539-4eba-4219-a689-2e5066159ddc)
   )
-  (junction (at 101.6 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 7dde088b-8ebe-4ed5-bba2-bdc2bc7a14b1)
-  )
   (junction (at 88.9 127) (diameter 0) (color 0 0 0 0)
     (uuid 81909fa2-2bd0-49d4-9ae6-438c8f015f27)
-  )
-  (junction (at 144.78 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 81fc992e-59c0-49ab-84b9-243b04983726)
   )
   (junction (at 285.75 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 846131e7-9b01-4ea3-bf69-95c42de4daa0)
@@ -2210,9 +1859,6 @@
   )
   (junction (at 156.21 240.03) (diameter 0) (color 0 0 0 0)
     (uuid 8e9e8995-90d6-4636-ae2e-b57dcabe7620)
-  )
-  (junction (at 157.48 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 9002dc7b-931d-4b0a-927b-8dd182b94721)
   )
   (junction (at 128.27 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 9831ad92-02ca-43c7-bb1a-67686ad3d050)
@@ -2256,12 +1902,6 @@
   (junction (at 168.91 247.65) (diameter 0) (color 0 0 0 0)
     (uuid e8897d86-05bb-4c52-a12a-1d6e3da6ac8c)
   )
-  (junction (at 119.38 59.69) (diameter 0) (color 0 0 0 0)
-    (uuid e8b5394a-d156-4bb1-95c6-7597a45297f9)
-  )
-  (junction (at 119.38 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid ec09df3e-61d9-4111-93a8-1a57bde82925)
-  )
   (junction (at 287.02 210.82) (diameter 0) (color 0 0 0 0)
     (uuid f4b80045-1830-4dc1-ad4c-90e6effa1dc9)
   )
@@ -2284,10 +1924,6 @@
   (wire (pts (xy 300.99 129.54) (xy 300.99 135.89))
     (stroke (width 0) (type default))
     (uuid 031ed906-2a12-4d04-8345-f6a307a464c7)
-  )
-  (wire (pts (xy 119.38 49.53) (xy 113.03 49.53))
-    (stroke (width 0) (type default))
-    (uuid 06459f2b-7ca8-4d53-afae-a4a4e9a9930d)
   )
   (wire (pts (xy 77.47 125.73) (xy 77.47 121.92))
     (stroke (width 0) (type default))
@@ -2317,10 +1953,6 @@
     (stroke (width 0) (type default))
     (uuid 14cd2420-9b46-41ce-8183-d01071938688)
   )
-  (wire (pts (xy 90.17 49.53) (xy 77.47 49.53))
-    (stroke (width 0) (type default))
-    (uuid 15cab707-c2ac-4eac-a128-09cad5348b23)
-  )
   (wire (pts (xy 162.56 113.03) (xy 162.56 121.92))
     (stroke (width 0) (type default))
     (uuid 16da4c1e-b890-403e-a93d-bd5734ae6882)
@@ -2348,10 +1980,6 @@
   (wire (pts (xy 128.27 127) (xy 128.27 121.92))
     (stroke (width 0) (type default))
     (uuid 1be6cdb8-6508-47b1-9649-1169debed309)
-  )
-  (wire (pts (xy 130.81 59.69) (xy 137.16 59.69))
-    (stroke (width 0) (type default))
-    (uuid 1c636f41-f676-4685-9e0f-b9a44f3c9ac4)
   )
   (wire (pts (xy 326.39 210.82) (xy 339.09 210.82))
     (stroke (width 0) (type default))
@@ -2393,23 +2021,11 @@
     (stroke (width 0) (type default))
     (uuid 271ef309-3614-4817-8ecc-69d370627239)
   )
-  (wire (pts (xy 107.95 59.69) (xy 101.6 59.69))
-    (stroke (width 0) (type default))
-    (uuid 2e261de0-bdb9-4e79-8331-debf1338e218)
-  )
-  (wire (pts (xy 149.86 57.15) (xy 149.86 58.42))
-    (stroke (width 0) (type default))
-    (uuid 2ec557e4-b091-44f5-84ce-90dd8afe731b)
-  )
   (polyline (pts (xy 11.43 81.28) (xy 406.4 81.28))
     (stroke (width 0) (type dash))
     (uuid 2f113207-ace3-4e6b-8574-2c8e37fea94b)
   )
 
-  (wire (pts (xy 101.6 49.53) (xy 95.25 49.53))
-    (stroke (width 0) (type default))
-    (uuid 30a64672-869b-45ef-ba41-2f23a29c2e62)
-  )
   (wire (pts (xy 270.51 127) (xy 278.13 127))
     (stroke (width 0) (type default))
     (uuid 31744f6e-4b2a-40dd-af01-cc98e8c982ad)
@@ -2429,10 +2045,6 @@
   (wire (pts (xy 168.91 242.57) (xy 168.91 247.65))
     (stroke (width 0) (type default))
     (uuid 35ac4a4d-3784-43e4-bc05-49e0525c3a7e)
-  )
-  (wire (pts (xy 157.48 49.53) (xy 149.86 49.53))
-    (stroke (width 0) (type default))
-    (uuid 3a1fc731-a070-4c2c-b251-311aed375ee8)
   )
   (wire (pts (xy 326.39 210.82) (xy 326.39 213.36))
     (stroke (width 0) (type default))
@@ -2457,14 +2069,6 @@
   (wire (pts (xy 137.16 132.08) (xy 137.16 133.35))
     (stroke (width 0) (type default))
     (uuid 4608eaf9-c372-4161-91c1-10e7377fb478)
-  )
-  (wire (pts (xy 119.38 59.69) (xy 119.38 49.53))
-    (stroke (width 0) (type default))
-    (uuid 47acf02b-0ad2-487f-adbb-149fe026d7de)
-  )
-  (wire (pts (xy 125.73 59.69) (xy 119.38 59.69))
-    (stroke (width 0) (type default))
-    (uuid 482731ff-d0ac-4418-a1f3-f0c9d9c5ae14)
   )
   (wire (pts (xy 68.58 222.25) (xy 68.58 223.52))
     (stroke (width 0) (type default))
@@ -2514,10 +2118,6 @@
     (stroke (width 0) (type default))
     (uuid 55315b4c-2748-4052-befd-4c06dc773471)
   )
-  (wire (pts (xy 119.38 49.53) (xy 125.73 49.53))
-    (stroke (width 0) (type default))
-    (uuid 5533d735-2f1b-4b03-a8f7-52c55858a426)
-  )
   (wire (pts (xy 74.93 227.33) (xy 76.2 227.33))
     (stroke (width 0) (type default))
     (uuid 59157c41-920d-48f3-b26e-cd3e557f6241)
@@ -2546,10 +2146,6 @@
     (stroke (width 0) (type default))
     (uuid 5fe61d9f-b358-4143-a66d-dfa2ba0f0fe0)
   )
-  (wire (pts (xy 157.48 48.26) (xy 157.48 49.53))
-    (stroke (width 0) (type default))
-    (uuid 6046f5e7-7d3b-4f92-8ae6-94cabc42c91a)
-  )
   (wire (pts (xy 166.37 121.92) (xy 168.91 121.92))
     (stroke (width 0) (type default))
     (uuid 6108366c-3e88-4832-a0e6-b385be29d116)
@@ -2562,17 +2158,9 @@
     (stroke (width 0) (type default))
     (uuid 657d33c5-b858-4abf-8ee7-dde22d911023)
   )
-  (wire (pts (xy 157.48 52.07) (xy 157.48 49.53))
-    (stroke (width 0) (type default))
-    (uuid 65b5100f-eeb4-4ee1-9e00-de5e336616dc)
-  )
   (wire (pts (xy 156.21 238.76) (xy 156.21 240.03))
     (stroke (width 0) (type default))
     (uuid 68310df8-7bb4-4d4a-abd1-79933ded0fca)
-  )
-  (wire (pts (xy 101.6 49.53) (xy 107.95 49.53))
-    (stroke (width 0) (type default))
-    (uuid 6cdcd5f7-5376-4f55-b743-3d0a901d330c)
   )
   (wire (pts (xy 278.13 127) (xy 279.4 127))
     (stroke (width 0) (type default))
@@ -2589,10 +2177,6 @@
   (wire (pts (xy 311.15 134.62) (xy 311.15 135.89))
     (stroke (width 0) (type default))
     (uuid 7439d9ee-17bb-4fb2-aeef-d1a91b58681b)
-  )
-  (wire (pts (xy 144.78 49.53) (xy 137.16 49.53))
-    (stroke (width 0) (type default))
-    (uuid 762f53c5-f90f-49aa-8e40-7e17eeba3555)
   )
   (wire (pts (xy 285.75 52.07) (xy 285.75 54.61))
     (stroke (width 0) (type default))
@@ -2674,10 +2258,6 @@
     (stroke (width 0) (type default))
     (uuid 96393c1f-006c-4ce9-ae3c-95b2781e113a)
   )
-  (wire (pts (xy 113.03 59.69) (xy 119.38 59.69))
-    (stroke (width 0) (type default))
-    (uuid 9804c9e7-60a6-4c8c-bc30-d677432a2004)
-  )
   (wire (pts (xy 168.91 229.87) (xy 168.91 232.41))
     (stroke (width 0) (type default))
     (uuid 9900c181-c195-48e9-8338-83064faad059)
@@ -2689,10 +2269,6 @@
   (wire (pts (xy 168.91 215.9) (xy 168.91 217.17))
     (stroke (width 0) (type default))
     (uuid 9f19133a-d9d2-4150-b8e1-7cd258e58cb0)
-  )
-  (wire (pts (xy 149.86 49.53) (xy 144.78 49.53))
-    (stroke (width 0) (type default))
-    (uuid a213150c-cdd3-49ca-99d8-74b916589921)
   )
   (wire (pts (xy 339.09 138.43) (xy 351.79 138.43))
     (stroke (width 0) (type default))
@@ -2718,10 +2294,6 @@
     (stroke (width 0) (type default))
     (uuid ab4ba48b-1199-4891-8591-3b5dd1daa87a)
   )
-  (wire (pts (xy 149.86 52.07) (xy 149.86 49.53))
-    (stroke (width 0) (type default))
-    (uuid ac0bc3cd-2777-4a3c-8afd-102f03a52071)
-  )
   (wire (pts (xy 53.34 222.25) (xy 53.34 217.17))
     (stroke (width 0) (type default))
     (uuid ac2729d4-6b92-414a-81ed-0607d65c4569)
@@ -2738,10 +2310,6 @@
   (wire (pts (xy 351.79 139.7) (xy 351.79 138.43))
     (stroke (width 0) (type default))
     (uuid b168fb6c-db91-4349-ae36-c0cdd12b40ce)
-  )
-  (wire (pts (xy 66.04 49.53) (xy 72.39 49.53))
-    (stroke (width 0) (type default))
-    (uuid b3302ea7-fa54-47a6-867d-888db2ab8745)
   )
   (wire (pts (xy 146.05 215.9) (xy 146.05 217.17))
     (stroke (width 0) (type default))
@@ -2800,10 +2368,6 @@
     (stroke (width 0) (type default))
     (uuid c54f9d94-48e9-4c55-85cf-3e0d7e211e76)
   )
-  (wire (pts (xy 157.48 57.15) (xy 157.48 58.42))
-    (stroke (width 0) (type default))
-    (uuid c963f876-8647-401e-a777-90a600079295)
-  )
   (wire (pts (xy 68.58 229.87) (xy 68.58 228.6))
     (stroke (width 0) (type default))
     (uuid ca660202-7ec4-4009-b223-6071eb2889db)
@@ -2852,10 +2416,6 @@
     (stroke (width 0) (type default))
     (uuid d7e2ff44-8260-4514-8e50-e7d34670faa1)
   )
-  (wire (pts (xy 137.16 59.69) (xy 137.16 49.53))
-    (stroke (width 0) (type default))
-    (uuid da6cc47b-0102-43bd-b155-c9c110b07657)
-  )
   (wire (pts (xy 88.9 127) (xy 88.9 128.27))
     (stroke (width 0) (type default))
     (uuid daf41be1-f950-4e24-9e5e-e3516bbf9180)
@@ -2863,10 +2423,6 @@
   (wire (pts (xy 146.05 138.43) (xy 146.05 139.7))
     (stroke (width 0) (type default))
     (uuid e02cfe74-8c23-4765-aec9-0e9fca1c9005)
-  )
-  (wire (pts (xy 137.16 49.53) (xy 130.81 49.53))
-    (stroke (width 0) (type default))
-    (uuid e23a95a3-27d4-44f0-ad25-eee9de985e4a)
   )
   (wire (pts (xy 124.46 127) (xy 128.27 127))
     (stroke (width 0) (type default))
@@ -2880,10 +2436,6 @@
     (stroke (width 0) (type default))
     (uuid e78ab88f-91d5-43aa-a346-9d5c70877bc4)
   )
-  (wire (pts (xy 144.78 48.26) (xy 144.78 49.53))
-    (stroke (width 0) (type default))
-    (uuid e83ae529-1ce1-4e54-9da2-a2a6b0a6055d)
-  )
   (wire (pts (xy 114.3 217.17) (xy 115.57 217.17))
     (stroke (width 0) (type default))
     (uuid e928a086-1436-4b9c-9806-a439cba2659a)
@@ -2891,10 +2443,6 @@
   (wire (pts (xy 107.95 217.17) (xy 109.22 217.17))
     (stroke (width 0) (type default))
     (uuid ea8c8c32-ca54-451b-b88e-a42900298a08)
-  )
-  (wire (pts (xy 101.6 59.69) (xy 101.6 49.53))
-    (stroke (width 0) (type default))
-    (uuid eac2d362-45e2-4ac2-a8ac-3cb35e702909)
   )
   (wire (pts (xy 316.23 213.36) (xy 317.5 213.36))
     (stroke (width 0) (type default))
@@ -4999,10 +4547,6 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid bec8315f-4615-42aa-b293-9656be283d9c)
   )
-  (text "PoC Filter" (at 50.8 35.56 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid e011f2ba-ac44-4c76-afa1-f8a32843e70e)
-  )
   (text "1V25 voltage reference DNP" (at 273.05 38.1 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid fa7e899a-6702-4cae-a7ad-3fc47d7e0461)
@@ -5041,19 +4585,9 @@
     (uuid ce087c88-ea6c-48d4-add0-6c4540a53cb4)
   )
 
-  (global_label "VREF" (shape input) (at 323.85 54.61 0) (fields_autoplaced)
+  (hierarchical_label "VREF" (shape output) (at 323.85 54.61 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 8c50660b-0000-4459-a511-51c636dbc240)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 330.8593 54.5306 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "SIO_P" (shape input) (at 66.04 49.53 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9e396fbe-860d-4ab3-888c-8f558b029e8e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 58.2445 49.4506 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
+    (uuid 8c77eca8-41d0-4e81-a7ab-445000e8ed26)
   )
 
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7") (at 162.56 240.03 0) (unit 1)
@@ -5086,9 +4620,9 @@
     (property "Public" "" (at 182.88 247.65 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "2" (uuid 9f0ee7dc-7214-43f0-97a0-db6f75b8e693))
-    (pin "3" (uuid 423b08c2-9ab1-4cac-a0f1-40a6cd77171a))
-    (pin "1" (uuid b32e3c9b-200f-4e97-b6aa-845485a2d02e))
+    (pin "2" (uuid ea5118e4-2461-4ae4-b128-23ca7e6c942a))
+    (pin "3" (uuid 46708aca-da05-4e3a-bfd7-bb4d6cb9e07e))
+    (pin "1" (uuid 9d40d639-ec16-4f62-ad3a-0fb4fbd8b5a4))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5131,43 +4665,12 @@
     (property "Color" "Green" (at 50.8 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 6dc2939f-902f-4221-ae84-0d74c0182efc))
-    (pin "2" (uuid ce9400f1-a28d-42b6-8f41-12cbabc98fe5))
+    (pin "1" (uuid efa875f5-519b-488b-8001-7e3ac99c31f1))
+    (pin "2" (uuid 0d439e7b-f460-4fce-ab3e-ed823c0871be))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "D9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicropower:GND") (at 157.48 58.42 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 04a05957-b13b-4909-81fa-2f309bb5a791)
-    (property "Reference" "#PWR0118" (at 148.59 60.96 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Value" "GND" (at 157.48 62.23 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Footprint" "" (at 148.59 66.04 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 148.59 71.12 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 148.59 66.04 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 148.59 68.58 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 01bbb5b1-3e0c-40be-ad07-285342b3e971))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -5194,7 +4697,7 @@
     (property "License" "Apache-2.0" (at 177.8 259.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid c168e504-84f3-476f-9a85-e0515edd4e35))
+    (pin "1" (uuid ac3e57c3-cfeb-4e91-b99a-c449ff85ea07))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5237,8 +4740,8 @@
     (property "Tolerance" "1%" (at 78.74 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 665ee220-2e25-4da4-affd-eb67224e19d6))
-    (pin "2" (uuid bbf1900e-2654-4049-98d7-5a8acbdd672f))
+    (pin "1" (uuid 28c3a6d6-978c-4eb2-b840-ccd01638c5ec))
+    (pin "2" (uuid 594720d5-18c3-4b25-99a1-efdd78d1c278))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5275,11 +4778,11 @@
     (property "License" "Apache-2.0" (at 314.96 147.32 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 45e73192-8b8b-4f34-a3b8-ef435f66057a))
-    (pin "2" (uuid 45d88b10-6ace-4a40-8ea3-059929a04323))
-    (pin "3" (uuid 0cab24e4-90a7-4110-83e5-d616fd07eda8))
-    (pin "4" (uuid e4d037f4-f832-4bd9-b7d7-9b0f8cffe330))
-    (pin "5" (uuid 5f9b9f56-92ea-4b92-8d29-dbb8e09ce33b))
+    (pin "1" (uuid de5da3aa-1628-4cec-9d1c-fc007e6b542d))
+    (pin "2" (uuid f7130667-b7f8-4b0a-a287-21b3e2f06f6a))
+    (pin "3" (uuid f03a8c15-43e8-456b-bd3b-deca881722d8))
+    (pin "4" (uuid da16f689-9129-4934-8059-7a54dd740699))
+    (pin "5" (uuid a7045ba4-e679-4847-a57c-a3fcf0e35a2e))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5310,42 +4813,11 @@
     (property "License" "Apache-2.0" (at 360.68 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 430027f9-8f24-4a62-888d-30fdadcdf593))
+    (pin "1" (uuid 06ada6a3-f5ab-4350-a864-285b7d1372d6))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "#PWR06") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicropower:GND") (at 149.86 58.42 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0af27e4c-6628-4ec6-a784-cc3adcc93f16)
-    (property "Reference" "#PWR0119" (at 140.97 60.96 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Value" "GND" (at 149.86 62.23 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Footprint" "" (at 140.97 66.04 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 140.97 71.12 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 140.97 66.04 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 140.97 68.58 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 1f9e00af-7962-4db5-be73-771bb12aa491))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -5387,8 +4859,8 @@
     (property "Dielectric" "" (at 356.87 198.12 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 7cfd18b5-6c96-430e-847e-46372de7b1fb))
-    (pin "2" (uuid e68f6e63-dcbc-4aae-b652-0f098e8a2e39))
+    (pin "1" (uuid 4b845d87-c328-4def-86d4-891c3106fc6d))
+    (pin "2" (uuid 8b0977f4-36f8-4f85-af45-44603d3f3dc4))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5434,62 +4906,12 @@
     (property "Dielectric" "" (at 83.82 207.01 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 105980ef-4420-47c8-b3ee-b63473e99172))
-    (pin "2" (uuid ffbb4a37-9453-4a48-a3cd-a978256704c9))
+    (pin "1" (uuid 236951c9-6322-4c32-a47e-2d05b9a2516f))
+    (pin "2" (uuid 74be6286-1764-4fc3-bab1-234463cdc752))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroFixedInductors:L_470n_1A_Coilcraft-PFL1609") (at 77.47 49.53 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 11ad1527-fa4d-4517-a02f-87983a36d047)
-    (property "Reference" "L6" (at 74.93 44.45 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Value" "L_470n_1A_Coilcraft-PFL1609" (at 63.5 52.07 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:L_Coilcraft-PFL1609" (at 63.5 57.15 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.coilcraft.com/getmedia/2f4cd442-d64d-4413-a518-12fcfd03318d/pfl1609.pdf" (at 63.5 59.69 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "470n/0.99A" (at 81.28 48.26 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-    )
-    (property "Manufacturer" "Coilcraft" (at 63.5 62.23 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "PFL1609-471" (at 63.5 64.77 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "ISat" "0.99 A" (at 63.5 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "IMax" "1 A" (at 63.5 69.85 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Size" "1.07x1.8" (at 63.5 72.39 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 63.5 74.93 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 63.5 77.47 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid a8b137f4-fe68-424a-8074-5da852a89fda))
-    (pin "2" (uuid a242c43a-72bc-499a-8b81-c09e544a0c55))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "L6") (unit 1)
         )
       )
     )
@@ -5525,9 +4947,9 @@
     (property "Public" "" (at 365.76 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "2" (uuid 6d0e2571-aa0e-4d1c-8236-f98dd2a0adbb))
-    (pin "3" (uuid f646eb38-35e5-4733-b1a4-5ecea117452b))
-    (pin "1" (uuid 014d35cc-a8da-4aec-bf84-3fcf53ef9568))
+    (pin "2" (uuid 786a89b3-46e1-49bc-b6b4-986389f68836))
+    (pin "3" (uuid 6cb94177-ce2e-4c81-aa97-66887a2c979f))
+    (pin "1" (uuid fb36f01f-4c50-4888-9add-27ece1317d7d))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5558,7 +4980,7 @@
     (property "License" "Apache-2.0" (at 163.83 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 12ec73fb-2ccd-4bdc-8251-07d4c0bc2d1e))
+    (pin "1" (uuid 249c9cdd-8eb5-432c-960d-95301055d8e7))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5583,7 +5005,7 @@
     (property "Datasheet" "" (at 73.66 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f577069-80c0-4d04-8894-a5a80955b0cc))
+    (pin "1" (uuid 1f5b5b56-3449-4a3e-a603-20006dc2d9e2))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5614,7 +5036,7 @@
     (property "License" "Apache-2.0" (at 146.05 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid ecb01bf7-49d7-4ffe-b474-88ab355a770e))
+    (pin "1" (uuid 88dcd1f1-e7e5-431b-8c24-72a83c6770c1))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5660,8 +5082,8 @@
     (property "Public" "" (at 86.36 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid a649e3ff-9c92-4711-a0e6-20e882144812))
-    (pin "2" (uuid 18240f64-35dd-44fa-9fd9-17608d8c3cd8))
+    (pin "1" (uuid f454d47b-f962-4844-88f5-9d05ef4fdd8d))
+    (pin "2" (uuid d60e1998-e06a-4523-b751-60b9d0da599a))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5698,7 +5120,7 @@
     (property "License" "Apache-2.0" (at 171.45 234.95 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 7f1732c5-b806-4bbb-9397-0af1cf96d9cd))
+    (pin "1" (uuid 94a87b48-e4b4-4728-81e1-a4ed46e46e8a))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5741,8 +5163,8 @@
     (property "Tolerance" "1%" (at 361.95 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid acdce73b-9a63-4ffb-bd3f-25f7b9603c2d))
-    (pin "2" (uuid cd3b438e-5981-4297-a41c-c6c76bcf1750))
+    (pin "1" (uuid 425feffe-75fa-4397-9f52-e8dae6d96084))
+    (pin "2" (uuid 8b0f7767-d5c1-45e5-aa8d-e6cd8342e1b0))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5773,55 +5195,11 @@
     (property "License" "Apache-2.0" (at 326.39 231.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 9acd001c-4a56-450a-87f7-3b0cdef4f249))
+    (pin "1" (uuid 0a727634-14a1-4a13-bd69-9be0fdd54da0))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "#PWR0115") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroResistors0402:R_5k1_0402") (at 113.03 59.69 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 21c5b8a2-41c9-40d9-996d-c9f69f022432)
-    (property "Reference" "R17" (at 110.49 53.975 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Value" "R_5k1_0402" (at 92.71 72.39 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 92.71 74.93 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 92.71 77.47 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "CR0402-FX-5101GLF" (at 92.71 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Manufacturer" "Bourns" (at 92.71 82.55 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 92.71 85.09 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 92.71 87.63 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "5k1" (at 110.49 56.515 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Tolerance" "1%" (at 92.71 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 9deb887e-5553-447e-a6ab-9e717304b20d))
-    (pin "2" (uuid 0ca58511-8b52-4154-979f-e1fcde3ee4a6))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "R17") (unit 1)
         )
       )
     )
@@ -5863,8 +5241,8 @@
     (property "Tolerance" "template_tolerance" (at 176.53 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid b90a84e0-baf6-4c18-9812-f69654b6830b))
-    (pin "2" (uuid 9cb58e2e-03eb-4125-b019-546bb71050b8))
+    (pin "1" (uuid e6539bf9-2f81-4421-868b-2882c2f05297))
+    (pin "2" (uuid 7a718299-65b1-4b0c-b50d-7932c5896185))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5895,7 +5273,7 @@
     (property "License" "Apache-2.0" (at 184.15 226.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid d0765c91-26ff-43ef-989b-68a45581ce9c))
+    (pin "1" (uuid 5a07591e-a1a7-4dca-bbd5-f043699238b6))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5926,7 +5304,7 @@
     (property "License" "Apache-2.0" (at 302.26 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 3c3cf20e-02e3-4412-8b2c-a9aea0914736))
+    (pin "1" (uuid 6e4dd590-2b7d-442e-8ca7-25ddcab53daf))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5957,7 +5335,7 @@
     (property "License" "Apache-2.0" (at 320.04 146.05 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 9daa020a-363b-464a-a4ff-f866b7f17cab))
+    (pin "1" (uuid d9290cc7-58a8-44c9-af80-6cf8862a8e61))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -5997,60 +5375,13 @@
     (property "DNP" "DNP" (at 306.07 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 9a4f31ee-fc98-45b7-81c7-843105abd2b3))
-    (pin "2" (uuid 754ce5d0-8eac-4070-85dc-d4d9e3fe9496))
-    (pin "3" (uuid c11a3dcf-d240-4fb2-ae6b-92e99bb451e1))
+    (pin "1" (uuid bb873746-eda8-4f3e-9431-c3bf1c7eecae))
+    (pin "2" (uuid 92603701-04ae-46d1-a783-7a5520edaa4d))
+    (pin "3" (uuid 54a7f1b6-0d2e-4e96-a4b9-0e5e20e9b5d6))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "U4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroCapacitors0402:C_10n_0402") (at 149.86 57.15 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3544e62f-7321-4167-bcde-a625530a5490)
-    (property "Reference" "C11" (at 149.225 52.705 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
-    )
-    (property "Value" "C_10n_0402" (at 139.7 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 137.16 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R71H103KA88%23" (at 134.62 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "GRM155R71H103KA88D" (at 132.08 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Manufacturer" "Murata" (at 129.54 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 127 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 124.46 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "10n" (at 149.225 56.515 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
-    )
-    (property "Voltage" "50V" (at 121.92 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Dielectric" "X7R" (at 119.38 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 53667e8d-4d11-4c2c-aad1-a74a94444195))
-    (pin "2" (uuid 46af4684-3680-47b8-8f0d-5d7803859a29))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "C11") (unit 1)
         )
       )
     )
@@ -6095,8 +5426,8 @@
     (property "DNP" "DNP" (at 281.94 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 1a559e56-4358-4dd9-aa8d-dd8d82b68b89))
-    (pin "2" (uuid f35ca14f-958d-42a7-b210-35f7cca36d84))
+    (pin "1" (uuid 99738a68-36f0-42bd-ad52-1420bf75351f))
+    (pin "2" (uuid 55d9264a-5d11-46e7-a228-7d6a7149c210))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6133,12 +5464,12 @@
     (property "License" "Apache-2.0" (at 111.76 237.49 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 37e08340-f2ff-4a7e-bc38-3b6eace2a1e8))
-    (pin "2" (uuid b5a951cc-0638-47f9-8f4d-c9116bf0f1fc))
-    (pin "3" (uuid 39355265-0d6c-48c5-a9f3-06cf53dff7c1))
-    (pin "4" (uuid 04bf343d-8cdb-4eb9-b26f-55a857893341))
-    (pin "5" (uuid c8fa69c9-4504-4575-8cd0-340484d824c3))
-    (pin "6" (uuid dff5608b-e554-4bbc-84cb-e605eaf64dae))
+    (pin "1" (uuid 8d535c6c-a233-4b13-a94d-66e10a822d44))
+    (pin "2" (uuid 40aee663-b7c5-4113-a199-8c7a0dcbc0e3))
+    (pin "3" (uuid bd48b93e-e350-4023-9a40-7ee3158eeec7))
+    (pin "4" (uuid 1bb01893-300a-4cf6-9767-89abe4c313b6))
+    (pin "5" (uuid 716e3746-aaee-4d20-bd68-acf4f89398ab))
+    (pin "6" (uuid 6edc2f0d-219f-47f5-abd7-3fd64f51fb5d))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6169,7 +5500,7 @@
     (property "License" "Apache-2.0" (at 62.23 240.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 01caab36-eb2d-4145-ad79-f9bb8f591623))
+    (pin "1" (uuid 71a248df-b43a-4afa-a7cc-1b159d2d8d56))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6194,7 +5525,7 @@
     (property "Datasheet" "" (at 88.9 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38eb7948-36b8-4840-b968-f1f52ad4b18d))
+    (pin "1" (uuid 2dab3bf6-9746-43a8-97a1-e51735267878))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6231,7 +5562,7 @@
     (property "License" "Apache-2.0" (at 184.15 139.7 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid e2f2545d-0652-4555-87d3-a28f94fbc389))
+    (pin "1" (uuid 8cb2c966-a921-4f20-bf26-580a6c2a92fd))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6262,7 +5593,7 @@
     (property "License" "Apache-2.0" (at 285.75 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 4c7891a0-cd8b-4446-a2a1-52c2aebf1a1a))
+    (pin "1" (uuid 5e1dca89-bf0f-4b47-893e-16552ee060f4))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6293,61 +5624,11 @@
     (property "License" "Apache-2.0" (at 300.99 62.23 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid adf112bd-91b5-4463-b15f-716ea0067f9a))
+    (pin "1" (uuid e99ddee6-0e4b-4038-84d9-5c2ee93ac4c9))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "#PWR0116") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroFixedInductors:L_6u8_1A_Coilcraft-1210POC") (at 113.03 49.53 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4d64da1a-a9b9-490c-8588-16b617c64a5e)
-    (property "Reference" "L4" (at 110.49 44.45 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Value" "L_6u8_1A_Coilcraft-1210POC" (at 99.06 52.07 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:L_Coilcraft-1210POC" (at 99.06 57.15 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.coilcraft.com/getmedia/5e8de018-68c5-4442-84ce-d5212c44660c/1210poc.pdf" (at 99.06 59.69 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "6u8/1A" (at 114.3 48.26 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-    )
-    (property "Manufacturer" "Coilcraft" (at 99.06 62.23 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "1210POC-682" (at 99.06 64.77 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "ISat" "1 A" (at 99.06 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "IMax" "1.36 A" (at 99.06 69.85 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Size" "2.67x3.3" (at 99.06 72.39 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 99.06 74.93 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 99.06 77.47 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 2aae3ffe-5896-4d97-9c3c-691459608164))
-    (pin "2" (uuid 97c231d2-9b9c-491c-ae0a-20ecd5c8253d))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "L4") (unit 1)
         )
       )
     )
@@ -6386,8 +5667,8 @@
     (property "Color" "Green" (at 334.01 194.31 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 0d26ad1b-e625-4372-a443-cc5588e815fd))
-    (pin "2" (uuid d7d52820-f41a-42ed-9ebb-2465df702af2))
+    (pin "1" (uuid 17a8b3c4-fd75-419b-ad98-499666b63100))
+    (pin "2" (uuid 23b5a546-6e35-4d1c-8fa3-d26be8ffd8e5))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6430,8 +5711,8 @@
     (property "Tolerance" "1%" (at 176.53 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 762722ad-391a-43d1-b414-eed3f4d6c982))
-    (pin "2" (uuid 04f83e81-c692-4fbe-b2e6-1b3f9978d47b))
+    (pin "1" (uuid bb307bb4-816b-4edc-b649-7d2194946cc0))
+    (pin "2" (uuid ebc2789e-42ff-4f09-8663-d658c4383cf7))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6456,7 +5737,7 @@
     (property "Datasheet" "" (at 311.15 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c3074e32-81f9-49ec-95de-99bd76baaca3))
+    (pin "1" (uuid 4ea83c91-36c8-4d31-8a23-d0d029bef373))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6481,7 +5762,7 @@
     (property "Datasheet" "" (at 55.88 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60c1c00b-8c2a-4d17-b9ba-5eab9f8c76f8))
+    (pin "1" (uuid d3f9ae3c-add6-4646-a89c-0284d6363069))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6512,7 +5793,7 @@
     (property "License" "Apache-2.0" (at 142.24 246.38 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 19db31ff-78b9-4c9d-8de2-8ac2a464feaf))
+    (pin "1" (uuid 22171d4e-a8d4-46c8-92eb-dd7ed36a70f2))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6549,7 +5830,7 @@
     (property "License" "Apache-2.0" (at 322.58 110.49 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid ab50ccff-1bf5-40b9-881d-40157dffa826))
+    (pin "1" (uuid 2c84674c-149b-4c03-91a0-40c137ad213e))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6586,7 +5867,7 @@
     (property "License" "Apache-2.0" (at 213.36 110.49 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 7f600fd6-e552-4e1e-8aad-aff64e7a8a0e))
+    (pin "1" (uuid 469de4f3-947b-4367-88db-9822b9fee28c))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6617,7 +5898,7 @@
     (property "License" "Apache-2.0" (at 367.03 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid a1b6afba-b068-4122-ae56-0b40d5202285))
+    (pin "1" (uuid 536601b0-7bfa-425e-83ef-65c7d24639b2))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6660,8 +5941,8 @@
     (property "Tolerance" "1%" (at 99.06 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 25de105b-6998-41f8-8fab-1d93318c8b85))
-    (pin "2" (uuid 0c68d199-d606-423e-aae6-c03a6a5bb779))
+    (pin "1" (uuid be355923-8d6e-4358-8bc7-89726b370fad))
+    (pin "2" (uuid 39c0510f-25fa-4412-8110-5608a359729c))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6692,7 +5973,7 @@
     (property "License" "Apache-2.0" (at 170.18 226.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 9ea17dd5-8f69-4c73-9c6d-926973ddf70b))
+    (pin "1" (uuid ad91d990-118a-4927-8772-22176f7d4ded))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6723,7 +6004,7 @@
     (property "License" "Apache-2.0" (at 204.47 137.16 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid e0df45fc-6653-4017-a10d-783dbea84eae))
+    (pin "1" (uuid 1ce4adb7-3eb4-42e1-a505-491291844c24))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6754,7 +6035,7 @@
     (property "License" "Apache-2.0" (at 154.94 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid fcca2e87-bd86-4ce8-a7a8-733855ebeae0))
+    (pin "1" (uuid 2651732f-98ea-4f35-b763-95733d961d93))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6785,7 +6066,7 @@
     (property "License" "Apache-2.0" (at 294.64 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid d4dcb703-0f1d-423c-8493-0f7c6cc06973))
+    (pin "1" (uuid 897040ac-7792-4252-89ac-1bc8b8c48033))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6816,7 +6097,7 @@
     (property "License" "Apache-2.0" (at 171.45 248.92 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 9890c31a-a653-445e-afc2-40a9db528ab6))
+    (pin "1" (uuid a53ec26f-fbd2-4cfa-bb63-b761a7d139d4))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6859,8 +6140,8 @@
     (property "Tolerance" "1%" (at 349.25 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 89b0fafe-a3e5-4b9f-8095-aca2ba187bce))
-    (pin "2" (uuid de1d7c3f-eb86-4ba3-aa40-cc826c734403))
+    (pin "1" (uuid 284b660b-3abd-4eac-b380-9a55e175c06e))
+    (pin "2" (uuid 559e1bb7-9e76-41eb-9b0e-3ac189cfb047))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6903,8 +6184,8 @@
     (property "Tolerance" "1%" (at 78.74 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid f4125b8a-af27-46d5-ba92-a65ac83a4e2a))
-    (pin "2" (uuid 301262a2-5af0-41e2-ad20-e16a9c5c87ea))
+    (pin "1" (uuid c7de740a-4950-4b79-a4fe-bc918f28f464))
+    (pin "2" (uuid 2ba1dfc1-feed-42ee-a567-0d0aeb4684cf))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6935,7 +6216,7 @@
     (property "License" "Apache-2.0" (at 97.79 144.78 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 127216d8-3bff-435d-86f4-886400e63e08))
+    (pin "1" (uuid dff34812-b76b-4925-b424-c7291e10679d))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -6960,55 +6241,11 @@
     (property "Datasheet" "" (at 77.47 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c7b62fc6-01b8-4ff7-9ae2-65110bbcef1b))
+    (pin "1" (uuid 0486de1f-4c3b-4c7b-ae8f-5528910b58b7))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "#FLG0103") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroResistors0402:R_5k1_0402") (at 130.81 59.69 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 83c06f78-e70b-4b2e-bc34-469ec4d274e0)
-    (property "Reference" "R16" (at 128.27 53.975 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Value" "R_5k1_0402" (at 110.49 72.39 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 110.49 74.93 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 110.49 77.47 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "CR0402-FX-5101GLF" (at 110.49 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Manufacturer" "Bourns" (at 110.49 82.55 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 110.49 85.09 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 110.49 87.63 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "5k1" (at 128.27 56.515 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Tolerance" "1%" (at 110.49 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 3f67a21e-f5a2-4511-bc0d-1f6950960635))
-    (pin "2" (uuid 952c6329-9218-4bbe-8ee6-485d86ae027a))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "R16") (unit 1)
         )
       )
     )
@@ -7047,62 +6284,12 @@
     (property "Tolerance" "1%" (at 179.07 201.93 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid fa5bb330-9f5c-41d8-8deb-1a6194060aca))
-    (pin "2" (uuid 5580e3ca-9176-4537-ab65-11542929c4fd))
+    (pin "1" (uuid dc97cf6b-08d6-473b-9bd9-30553a402f77))
+    (pin "2" (uuid 13eecf70-2168-4f34-b031-e4e300702a81))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "R39") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroFixedInductors:L_22u_1.12A_Coilcraft-MSS6132T") (at 130.81 49.53 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8565547a-ee42-45ca-8c99-b615b8cae9c3)
-    (property "Reference" "L3" (at 128.27 44.45 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Value" "L_22u_1.12A_Coilcraft-MSS6132T" (at 116.84 52.07 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:L_Coilcraft-MSS6132T" (at 116.84 57.15 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.coilcraft.com/getmedia/d035c9b3-191d-46aa-ab3f-5c1a849157c1/mss6132t.pdf" (at 116.84 59.69 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "22u/1.12A" (at 133.35 48.26 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-    )
-    (property "Manufacturer" "Coilcraft" (at 116.84 62.23 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "MSS6132T-223" (at 116.84 64.77 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "ISat" "1.12A" (at 116.84 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "IMax" "1.45A" (at 116.84 69.85 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Size" "6.1x6.1" (at 116.84 72.39 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 116.84 74.93 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 116.84 77.47 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid a6c1ee6a-a4d3-4391-8fb3-74bb922297c6))
-    (pin "2" (uuid 10985452-a212-4036-866b-15132aed3b66))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "L3") (unit 1)
         )
       )
     )
@@ -7129,7 +6316,7 @@
     (property "License" "Apache-2.0" (at 77.47 240.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid a8e7a6b8-e2df-4227-80cb-d3e612a23593))
+    (pin "1" (uuid f5a87b43-a5e1-4112-bb4e-d66eabf0f85f))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7172,8 +6359,8 @@
     (property "Tolerance" "1%" (at 147.32 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 2547109a-7122-468c-a7de-0b40c09743c2))
-    (pin "2" (uuid ede727ff-c543-4b3a-b81c-5f934989023f))
+    (pin "1" (uuid a55c45fa-9bea-493b-abf5-8ab8573ef44d))
+    (pin "2" (uuid f5543667-02bf-4466-b2ae-a43cf04ebe8b))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7198,7 +6385,7 @@
     (property "Datasheet" "" (at 146.05 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b15b9b3-dbfd-4f14-b014-c2b8b4321d3d))
+    (pin "1" (uuid d5756d8c-b182-45b8-8ada-50fd49b70e57))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7244,8 +6431,8 @@
     (property "Dielectric" "" (at 154.94 214.63 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid b61e0ab1-0e1e-44ff-96c3-398b7ccaa6a5))
-    (pin "2" (uuid af08bda1-88ab-4d9d-b9da-d1caefc56cf1))
+    (pin "1" (uuid 7e693a6c-5409-43ef-9f7a-823765a5c8e4))
+    (pin "2" (uuid 031da9a0-5951-49da-bd91-2b0e75df53fb))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7276,7 +6463,7 @@
     (property "License" "Apache-2.0" (at 295.91 231.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid c20464b2-63aa-43c7-8700-5c6fe1343f5a))
+    (pin "1" (uuid 6f93813d-e117-4c7c-b2d5-f212e194496c))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7322,8 +6509,8 @@
     (property "Tolerance" "template_tolerance" (at 154.94 227.33 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid b7ca1a9c-813f-4e49-a05a-89d4409d0aad))
-    (pin "2" (uuid 1720c7dc-bea7-47c6-8a27-504956a1cb6d))
+    (pin "1" (uuid 6f9695d0-a08c-42b1-b91e-b1a83fa94157))
+    (pin "2" (uuid f13aef74-ffb6-466a-bba2-1d7e7a17c8ae))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7348,7 +6535,7 @@
     (property "Datasheet" "" (at 53.34 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fb0a5d79-a402-4687-9473-22fc6ab7484d))
+    (pin "1" (uuid 2d14fd98-3a1a-4f08-adca-89d2ee964b84))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7391,8 +6578,8 @@
     (property "Tolerance" "1%" (at 125.73 203.2 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 61794e1f-a2d1-4a35-9d12-c097363fd9d5))
-    (pin "2" (uuid 20264c44-8f28-43a6-9761-329d24b4e85a))
+    (pin "1" (uuid 31e5d264-1a25-43d2-8ef5-787bc08d4c3c))
+    (pin "2" (uuid fb923935-cb8d-41ac-aba9-09fd9292c0d3))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7438,8 +6625,8 @@
     (property "Public" "" (at 308.61 203.2 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "2" (uuid 6794128f-a2c3-4b88-9868-9187950c7dad))
-    (pin "1" (uuid 6226dba9-70af-453a-8d71-9751262c1dc4))
+    (pin "2" (uuid 99a3446c-c7cd-45b3-9ef4-fc5cf951a640))
+    (pin "1" (uuid 38d1b9dc-dc0a-4d10-a59e-cde0334de536))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7470,7 +6657,7 @@
     (property "License" "Apache-2.0" (at 354.33 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 925020e3-8e6d-47b4-91aa-54cdc4ba7df0))
+    (pin "1" (uuid a3fef86b-0181-4a6f-a56b-139f190778be))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7501,7 +6688,7 @@
     (property "License" "Apache-2.0" (at 133.35 246.38 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 190e9003-856c-4177-ab00-d3cb41d57a6d))
+    (pin "1" (uuid 2784fbc9-5cbc-4975-a254-528fa739b467))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7547,8 +6734,8 @@
     (property "Dielectric" "" (at 185.42 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 65ac3ab0-ac35-4e86-9ec6-6fe9200d10ad))
-    (pin "2" (uuid 3f2a9740-d318-4dc5-898a-c2255979e62e))
+    (pin "1" (uuid 4d0d83db-e670-48ee-b414-fe381e8a6011))
+    (pin "2" (uuid 48be1c81-a47e-4354-9a5a-62bdd34c0f3b))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7579,7 +6766,7 @@
     (property "License" "Apache-2.0" (at 279.4 146.05 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid f00bbaa9-2ac2-4945-a879-cf1ce07129e7))
+    (pin "1" (uuid 7e7d89ef-5840-44f2-a982-f6da5b8553c8))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7625,8 +6812,8 @@
     (property "Dielectric" "" (at 139.7 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 2cb0fb8c-665f-4f5e-9a4b-8a1530236172))
-    (pin "2" (uuid 13f12202-e518-4913-a90e-381c217d0b42))
+    (pin "1" (uuid 445f6d90-db3b-4eaa-943b-36ce06861783))
+    (pin "2" (uuid e551b1d1-1001-497c-bd61-d3c705617ca2))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7657,7 +6844,7 @@
     (property "License" "Apache-2.0" (at 105.41 143.51 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 1b9338e5-1b70-48e7-bf6b-9c41212e622d))
+    (pin "1" (uuid 458b88d1-3fca-403c-b8bd-224015d2ef9b))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7688,7 +6875,7 @@
     (property "License" "Apache-2.0" (at 175.26 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 2a7a7756-03f1-415f-8886-db7f295ec5b1))
+    (pin "1" (uuid fdb9aa17-6903-437f-8f9c-46ea2c4ef541))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7731,8 +6918,8 @@
     (property "Tolerance" "1%" (at 125.73 214.63 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 3be93d83-2ff9-4aa3-ae35-55146681fdf0))
-    (pin "2" (uuid 2e444b27-da29-40fa-b17e-270ad7df0a61))
+    (pin "1" (uuid a16e2e54-fb7d-4c17-b150-e8f75b6bc8b2))
+    (pin "2" (uuid 74f5affa-ae2e-4efd-a3c9-9ab7aca32af9))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7778,8 +6965,8 @@
     (property "Dielectric" "" (at 341.63 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 84e6cb77-ee15-4de2-9e26-c33a35a96557))
-    (pin "2" (uuid 8f1429e8-9820-4068-a55f-a12fad36d7e7))
+    (pin "1" (uuid d27a0d5e-7abd-4c6b-ab30-4581cf94f4c6))
+    (pin "2" (uuid 19fafa7c-1692-4a06-abfa-c38a12f03c88))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7825,8 +7012,8 @@
     (property "Dielectric" "" (at 176.53 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 70ef4626-104f-40e7-8e13-7f77c4a117fa))
-    (pin "2" (uuid acc54f75-5faf-4d5f-8764-40b0df492129))
+    (pin "1" (uuid 7838c4a4-144b-43d0-9a17-7860914aca42))
+    (pin "2" (uuid 7b88912b-dc4b-45a7-b623-9556ad25152c))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7851,7 +7038,7 @@
     (property "Datasheet" "" (at 162.56 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77461019-68d0-4daf-8fcd-08fabe3382a8))
+    (pin "1" (uuid 889ba4d4-06e2-48b6-8932-d20c9625715c))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7888,11 +7075,11 @@
     (property "License" "Apache-2.0" (at 331.47 231.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid a3264f54-fee8-4339-9946-14c519b59c60))
-    (pin "2" (uuid 5102f33b-ae02-4ad8-94e6-b1c31902ea01))
-    (pin "3" (uuid 81ebd7d3-4078-4402-87ba-2f00007b5576))
-    (pin "4" (uuid 7f62604e-6716-4e19-9a9f-564b8f676e48))
-    (pin "5" (uuid a89c54c7-36e8-42f6-bd83-4bedfe1725ba))
+    (pin "1" (uuid bdb13d54-167f-4247-adcf-6ca5272f4ca1))
+    (pin "2" (uuid 157b293e-6a87-4054-bc76-28cfbe292075))
+    (pin "3" (uuid d9776a46-074a-48b4-9f1c-0288fec8ecc5))
+    (pin "4" (uuid 97b80e0d-760a-4b25-b5e9-f0d26d1270ba))
+    (pin "5" (uuid 0067a64b-bc6d-4b67-b107-9a51d5ba3786))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -7935,99 +7122,12 @@
     (property "Color" "Green" (at 163.83 207.01 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 48cbb125-fdcd-4916-8f77-7325e52017d7))
-    (pin "2" (uuid a018ea96-09f2-423c-bdf1-2177292b6e6d))
+    (pin "1" (uuid 84c169a1-d548-4eff-a18f-d820488455b0))
+    (pin "2" (uuid da470507-09f0-4447-9b7c-add43a938018))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "D8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroTestPoints:TP_1.5mm_SMD") (at 144.78 48.26 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bd45ce59-1c3d-4843-8cf5-a7ea32207ace)
-    (property "Reference" "TP3" (at 147.32 43.18 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
-    )
-    (property "Value" "TP_1.5mm_SMD" (at 137.16 33.02 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:TP_SMD_1.5mm" (at 134.62 33.02 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 132.08 30.48 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "" (at 144.78 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "" (at 144.78 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Author" "Antmicro" (at 129.54 33.02 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 127 33.02 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 6116e66e-37a6-4b26-8b2d-c7f8be042f3e))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "TP3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroFixedInductors:L_470n_1A_Coilcraft-PFL1609") (at 95.25 49.53 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid be47b5ab-fcfb-4a4e-ad97-0d03b56fb627)
-    (property "Reference" "L5" (at 92.71 44.45 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (property "Value" "L_470n_1A_Coilcraft-PFL1609" (at 81.28 52.07 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:L_Coilcraft-PFL1609" (at 81.28 57.15 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.coilcraft.com/getmedia/2f4cd442-d64d-4413-a518-12fcfd03318d/pfl1609.pdf" (at 81.28 59.69 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "470n/0.99A" (at 99.06 48.26 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-    )
-    (property "Manufacturer" "Coilcraft" (at 81.28 62.23 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "PFL1609-471" (at 81.28 64.77 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "ISat" "0.99 A" (at 81.28 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "IMax" "1 A" (at 81.28 69.85 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Size" "1.07x1.8" (at 81.28 72.39 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 81.28 74.93 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 81.28 77.47 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 9beeb359-82ee-4f18-9864-bb8c9b7720db))
-    (pin "2" (uuid 1f63f7cf-78db-4f01-8abe-acaeefa71828))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "L5") (unit 1)
         )
       )
     )
@@ -8072,59 +7172,12 @@
     (property "License" "Apache-2.0" (at 123.19 245.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid f1f649e8-22d7-4fad-896f-72831fedcf43))
-    (pin "2" (uuid 5e103860-cec0-4c5d-b8c3-4480c5b5bfd2))
+    (pin "1" (uuid 1ccd5a08-4d3b-451b-bb7f-25917217eb28))
+    (pin "2" (uuid 505e14dd-8283-4cc2-9c45-aea563b160cc))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "L2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 157.48 57.15 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c7496126-b229-4df1-b2d5-18f3e7b7eca6)
-    (property "Reference" "C10" (at 156.845 52.705 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
-    )
-    (property "Value" "C_100n_0402" (at 147.32 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 144.78 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 142.24 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "GRM155R61H104KE14D" (at 139.7 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Manufacturer" "Murata" (at 137.16 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 134.62 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 132.08 36.83 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "100n" (at 156.845 56.515 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
-    )
-    (property "Voltage" "50V" (at 129.54 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Dielectric" "X5R" (at 127 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 76cf18da-0425-494b-80e6-4f267182e997))
-    (pin "2" (uuid a23fb8f6-8b58-42ba-83d0-a505351da6d5))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "C10") (unit 1)
         )
       )
     )
@@ -8157,7 +7210,7 @@
     (property "License" "Apache-2.0" (at 339.09 194.31 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid ca56e7ca-4cf3-446d-a4d4-e03e43fa552d))
+    (pin "1" (uuid 20d5f2a3-b547-4914-966a-a29fbbd99a42))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8200,8 +7253,8 @@
     (property "Color" "Green" (at 346.71 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 502db2d2-72ac-4df7-9631-8d9e0cedaf3f))
-    (pin "2" (uuid c7c075f1-d7f7-4107-add0-d08e95c46cf1))
+    (pin "1" (uuid 8b05120f-70b9-4722-aa6e-5043d6940bd9))
+    (pin "2" (uuid d8694865-5234-478e-9715-cdad87abd9e7))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8232,7 +7285,7 @@
     (property "License" "Apache-2.0" (at 335.28 231.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid cbe7e5bd-3b61-422a-b273-7e7106d6511c))
+    (pin "1" (uuid c861100c-5d0c-4dcd-9f8e-17609a6ffeeb))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8275,8 +7328,8 @@
     (property "Tolerance" "1%" (at 147.32 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid bc640cc4-35fb-4d0b-9254-7d6434b1b5ef))
-    (pin "2" (uuid 856d5e7d-48ea-46a2-aeab-1a515ce53ca4))
+    (pin "1" (uuid 925a75d3-9ca9-4d6c-a1a0-e4259b788b61))
+    (pin "2" (uuid 1599257e-6ee2-40c5-9d20-bcafca549d07))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8322,8 +7375,8 @@
     (property "Dielectric" "" (at 317.5 198.12 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid e87ffd51-88d4-4de7-9a17-99d65f1c904b))
-    (pin "2" (uuid 8f229af9-0665-4636-be22-86e9ecec3f23))
+    (pin "1" (uuid 3c447e60-505a-4092-864a-25db470ffc43))
+    (pin "2" (uuid 0bca9f4a-5c17-4294-bf21-5d8f6394107f))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8360,12 +7413,12 @@
     (property "License" "Apache-2.0" (at 133.35 142.24 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 41df6a4b-7b00-4e3e-93f9-b2858cac36d7))
-    (pin "2" (uuid 3dd3f3b4-2b7a-485b-82b1-f3d4eea40b48))
-    (pin "3" (uuid 505e861a-42ce-422d-8ff1-820fb22f679b))
-    (pin "4" (uuid fddcc6c9-5c91-46b5-a8c8-ed619a8b8a71))
-    (pin "5" (uuid 9398d5ba-8534-4b5b-8212-56d51056d8e7))
-    (pin "6" (uuid 25b3685a-1294-40f9-9e1e-fdf4b1998741))
+    (pin "1" (uuid 9ac7ea3f-83ba-45dc-8683-25db1b88744a))
+    (pin "2" (uuid 25c0a408-cd27-4b67-aaa0-6775d499f1c3))
+    (pin "3" (uuid 0e1a033d-0c36-47e1-88ad-621bdbd25a8d))
+    (pin "4" (uuid 15baf329-333a-4d20-9c9a-58fa839a9a6d))
+    (pin "5" (uuid b010ed70-6fb3-4bb7-a909-78d30fd36d9e))
+    (pin "6" (uuid 75d0b828-b0fb-4420-9b00-82138d091c5f))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8396,7 +7449,7 @@
     (property "License" "Apache-2.0" (at 283.21 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid ba0fdfb8-685a-4871-bce6-d66319c20a31))
+    (pin "1" (uuid b24637ce-240a-47f1-86b7-1d307d8c1b35))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8427,7 +7480,7 @@
     (property "License" "Apache-2.0" (at 181.61 123.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 122ac583-4410-4156-bdf3-240ee7087087))
+    (pin "1" (uuid 344afa64-9df9-42b3-b0f1-74ef8866f0de))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8458,7 +7511,7 @@
     (property "License" "Apache-2.0" (at 309.88 146.05 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 9b33e7d4-ba15-417a-8dfd-7385ceefe555))
+    (pin "1" (uuid addbe491-bfc7-4e0b-93a1-7aa72cade76c))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8504,8 +7557,8 @@
     (property "Dielectric" "" (at 300.99 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 42422ba7-4db3-4b65-85aa-43c217507687))
-    (pin "2" (uuid 43f3158f-5386-42fa-8d46-639b7d7374b3))
+    (pin "1" (uuid 06b57c9f-00c7-4762-b49c-f3ce816f1d9b))
+    (pin "2" (uuid 0fe7d26b-790c-4c36-9fa2-f90c6c393791))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8536,7 +7589,7 @@
     (property "License" "Apache-2.0" (at 347.98 234.95 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 5aa80991-e11e-4a04-9ce0-fca52851bfd8))
+    (pin "1" (uuid 939f65dd-2f7c-438e-bbfc-e1b50aa96ef2))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8579,8 +7632,8 @@
     (property "Tolerance" "1%" (at 99.06 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid a92fa662-f6d4-486e-be35-9507c9b85750))
-    (pin "2" (uuid f8385158-c71c-4bb6-8d15-cd293e0cccd4))
+    (pin "1" (uuid 9edbcfd5-396c-4750-b0a5-daf59bdbdfac))
+    (pin "2" (uuid 2fc858af-9021-4210-aa18-cf2517228960))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8626,8 +7679,8 @@
     (property "Dielectric" "X5R" (at 119.38 252.73 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid e647e628-a950-4015-9b67-f45877e4a172))
-    (pin "2" (uuid 7c99e8b0-4bd6-46a6-8095-df79f58270f0))
+    (pin "1" (uuid fafec4bc-3b6b-4e02-954a-c58f50e9f8db))
+    (pin "2" (uuid f0335492-a31b-475a-92d2-9399f1024f32))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8658,7 +7711,7 @@
     (property "License" "Apache-2.0" (at 83.82 240.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid d6c53ee2-1c25-4fbc-8729-718cb117beca))
+    (pin "1" (uuid deff28ed-a9e6-4728-a4e8-79f1f94b5031))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8683,7 +7736,7 @@
     (property "Datasheet" "" (at 339.09 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a02a4415-7f14-4641-9c32-21d60d45a793))
+    (pin "1" (uuid bb650363-e78d-4fa3-9dd4-732bdf783f67))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8714,7 +7767,7 @@
     (property "License" "Apache-2.0" (at 86.36 143.51 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid bb13a1ec-dfdf-45a2-aa5e-776b71479879))
+    (pin "1" (uuid f18d1d08-2146-428e-8c6e-3cdf8413e17b))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8757,37 +7810,12 @@
     (property "Tolerance" "1%" (at 166.37 226.06 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid e180201b-7b88-49f9-8d34-8d4058b2e80c))
-    (pin "2" (uuid fbf29330-2664-43e0-8da2-ea879a9c6682))
+    (pin "1" (uuid f69c6441-a36a-4f51-a655-4a7b57af7809))
+    (pin "2" (uuid c799d0f3-7e29-4d68-b06c-ee0a3ac37f06))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
           (reference "R38") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicropower:+12V") (at 157.48 48.26 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f4b61073-800f-43bc-abc1-06eeea046311)
-    (property "Reference" "#PWR0106" (at 157.48 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 157.48 43.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 157.48 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 157.48 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c6b742ff-60e4-42ec-aba8-7baa1d90d0fc))
-    (instances
-      (project "gmsl-serializer"
-        (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -8826,8 +7854,8 @@
     (property "Color" "Green" (at 161.29 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 31c5e515-404b-48c0-9aef-04c6125857a7))
-    (pin "2" (uuid b7fa61b6-6215-4ec0-885f-569e7cde692d))
+    (pin "1" (uuid f48d3259-6600-4f3a-b4a4-573a40588642))
+    (pin "2" (uuid 9997b618-6143-4b5b-af4a-3e99825f0772))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8852,7 +7880,7 @@
     (property "Datasheet" "" (at 68.58 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b753847-c279-4849-ab6b-f239b288d0fd))
+    (pin "1" (uuid 0ac5d2d8-04c8-46eb-b98c-538cf7660e49))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8901,8 +7929,8 @@
     (property "License" "Apache-2.0" (at 143.51 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 1571b7be-ddfd-4344-bae9-201c39766a15))
-    (pin "2" (uuid a5b34f08-2d59-4f00-ae60-89abc31f280a))
+    (pin "1" (uuid c104086e-f3d8-416e-91d6-a4c82c8a946f))
+    (pin "2" (uuid 7a07d61d-2f12-4ae5-86e2-c54c0c2840ec))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8948,8 +7976,8 @@
     (property "Dielectric" "" (at 107.95 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid cd216f23-5b06-4061-9440-c570f8e3bc08))
-    (pin "2" (uuid cc477fec-bd03-47ef-bf6e-7aa3a8315709))
+    (pin "1" (uuid 6533de27-3211-4c95-9e30-d0ad8b946d6c))
+    (pin "2" (uuid f4bd78f8-3bf3-41fa-809c-5693237d8fbf))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -8980,7 +8008,7 @@
     (property "License" "Apache-2.0" (at 64.77 146.05 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid d66004ab-2bb1-46cb-aef3-bd8c8f0917ab))
+    (pin "1" (uuid 1a1744f2-c805-4185-8ed1-8ab5ad6368d9))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -9011,7 +8039,7 @@
     (property "License" "Apache-2.0" (at 124.46 246.38 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 6fd47837-a332-40ac-b62d-e33ebc4a8c4d))
+    (pin "1" (uuid 4a26755b-aa29-47b8-996d-e160534e043b))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
@@ -9057,8 +8085,8 @@
     (property "Dielectric" "" (at 163.83 214.63 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 2887d633-1be2-46e1-8486-415771cd67c2))
-    (pin "2" (uuid e43f58c6-e0cf-425e-8f2a-29bba65aa3df))
+    (pin "1" (uuid bf75b609-1382-4295-a979-35572526d410))
+    (pin "2" (uuid a25c7dce-9c33-485c-8668-30f076333384))
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
