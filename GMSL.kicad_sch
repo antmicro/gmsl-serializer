@@ -3268,7 +3268,7 @@
     (property "Reference" "J2" (at 118.11 111.76 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Value" "Conn_FAKRA_2FAI-NZSP-PCBB6" (at 118.11 114.3 0)
+    (property "Value" "Conn_FAKRA_59S2AQ-40MT5-Z_1" (at 118.11 114.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:Conn_FAKRA_59S2AQ-40MT5-Z_1" (at 105.41 121.92 0)
@@ -3429,7 +3429,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1.5mm_SMD") (at 246.38 110.49 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid bd45ce59-1c3d-4843-8cf5-a7ea32207ace)
     (property "Reference" "TP3" (at 248.92 105.41 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))

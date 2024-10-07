@@ -5094,7 +5094,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1.5mm_SMD") (at 156.21 217.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1ac1fcdc-4e71-44a2-8d0a-e4af858a97bc)
     (property "Reference" "TP2" (at 161.29 214.63 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -5346,7 +5346,7 @@
   )
 
   (symbol (lib_id "antmicroPMICPowerDistributionSwitchesLoadDrivers:REF3012AIDBZT") (at 293.37 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 30491bb7-2b7c-4b08-9171-8f28bc35afa6)
     (property "Reference" "U4" (at 302.26 48.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5372,9 +5372,6 @@
     (property "License" "Apache-2.0" (at 326.39 77.47 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "DNP" "DNP" (at 306.07 48.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
     (pin "1" (uuid bb873746-eda8-4f3e-9431-c3bf1c7eecae))
     (pin "2" (uuid 92603701-04ae-46d1-a783-7a5520edaa4d))
     (pin "3" (uuid 54a7f1b6-0d2e-4e96-a4b9-0e5e20e9b5d6))
@@ -5388,7 +5385,7 @@
   )
 
   (symbol (lib_id "antmicroCapacitors0402:C_1u_16V_0402") (at 285.75 60.96 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 369c3d6e-d3bb-40ed-8a98-9a293c3b0632)
     (property "Reference" "C12" (at 275.59 57.15 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -5422,9 +5419,6 @@
     )
     (property "Dielectric" "" (at 316.23 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "DNP" "DNP" (at 281.94 57.15 90)
-      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 99738a68-36f0-42bd-ad52-1420bf75351f))
     (pin "2" (uuid 55d9264a-5d11-46e7-a228-7d6a7149c210))
@@ -5536,7 +5530,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1.5mm_SMD") (at 168.91 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 47473774-77a3-46d9-816e-9e6c429fcf18)
     (property "Reference" "TP1" (at 172.72 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -5804,7 +5798,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1.5mm_SMD") (at 304.8 125.73 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 598bf4b7-82b2-4c22-8e34-5800da73b018)
     (property "Reference" "TP5" (at 303.53 120.65 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -5841,7 +5835,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1.5mm_SMD") (at 195.58 125.73 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 5a63d5dc-a264-4d09-8f34-7747d414a1d2)
     (property "Reference" "TP9" (at 194.31 120.65 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -7184,7 +7178,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1.5mm_SMD") (at 321.31 209.55 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid cb1d74db-a8df-4ac6-9fd9-64cdb0ef5a82)
     (property "Reference" "TP4" (at 320.04 204.47 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))

@@ -3531,7 +3531,7 @@
   )
 
   (symbol (lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3mm") (at 31.75 240.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47b8f45e-ee53-4ca1-8e8b-7596e0e41912)
     (property "Reference" "MP4" (at 40.64 238.7599 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
@@ -3562,7 +3562,7 @@
   )
 
   (symbol (lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3mm") (at 31.75 218.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63605c51-2022-4f6b-9058-88dfedbdecff)
     (property "Reference" "MP1" (at 40.64 217.1699 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
@@ -3593,7 +3593,7 @@
   )
 
   (symbol (lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3mm") (at 31.75 226.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca9c560a-6711-473d-a88a-aa22e71f3187)
     (property "Reference" "MP2" (at 40.64 224.7899 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
@@ -3655,7 +3655,7 @@
   )
 
   (symbol (lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3mm") (at 31.75 232.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f94c92ad-f4d5-4e2c-8028-eceea0320c2b)
     (property "Reference" "MP3" (at 40.64 231.1399 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
