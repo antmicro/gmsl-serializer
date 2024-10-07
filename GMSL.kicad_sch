@@ -3005,7 +3005,7 @@
   (symbol (lib_id "antmicroFixedInductors:L_470n_1A_Coilcraft-PFL1609") (at 179.07 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11ad1527-fa4d-4517-a02f-87983a36d047)
-    (property "Reference" "L7" (at 176.53 106.68 0)
+    (property "Reference" "L6" (at 176.53 106.68 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "L_470n_1A_Coilcraft-PFL1609" (at 165.1 114.3 0)
@@ -3046,7 +3046,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "L7") (unit 1)
+          (reference "L6") (unit 1)
         )
       )
     )
@@ -3055,7 +3055,7 @@
   (symbol (lib_id "antmicroResistors0402:R_5k1_0402") (at 214.63 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21c5b8a2-41c9-40d9-996d-c9f69f022432)
-    (property "Reference" "R45" (at 212.09 116.205 0)
+    (property "Reference" "R17" (at 212.09 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_5k1_0402" (at 194.31 134.62 0)
@@ -3079,7 +3079,7 @@
     (property "Author" "Antmicro" (at 194.31 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "5k1" (at 212.09 118.745 0)
+    (property "Val" "5k1" (at 212.09 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Tolerance" "1%" (at 194.31 132.08 0)
@@ -3090,7 +3090,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "R45") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3099,7 +3099,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_10n_0402") (at 251.46 119.38 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3544e62f-7321-4167-bcde-a625530a5490)
-    (property "Reference" "C39" (at 250.825 114.935 90)
+    (property "Reference" "C11" (at 250.825 114.935 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_10n_0402" (at 241.3 99.06 0)
@@ -3137,7 +3137,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "C39") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3177,7 +3177,7 @@
   (symbol (lib_id "antmicroFixedInductors:L_6u8_1A_Coilcraft-1210POC") (at 214.63 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d64da1a-a9b9-490c-8588-16b617c64a5e)
-    (property "Reference" "L10" (at 212.09 106.68 0)
+    (property "Reference" "L4" (at 212.09 106.68 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "L_6u8_1A_Coilcraft-1210POC" (at 200.66 114.3 0)
@@ -3218,7 +3218,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "L10") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -3337,7 +3337,7 @@
   (symbol (lib_id "antmicroResistors0402:R_5k1_0402") (at 232.41 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83c06f78-e70b-4b2e-bc34-469ec4d274e0)
-    (property "Reference" "R48" (at 229.87 116.205 0)
+    (property "Reference" "R16" (at 229.87 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_5k1_0402" (at 212.09 134.62 0)
@@ -3361,7 +3361,7 @@
     (property "Author" "Antmicro" (at 212.09 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "5k1" (at 229.87 118.745 0)
+    (property "Val" "5k1" (at 229.87 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Tolerance" "1%" (at 212.09 132.08 0)
@@ -3372,7 +3372,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "R48") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3381,7 +3381,7 @@
   (symbol (lib_id "antmicroFixedInductors:L_22u_1.12A_Coilcraft-MSS6132T") (at 232.41 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8565547a-ee42-45ca-8c99-b615b8cae9c3)
-    (property "Reference" "L12" (at 229.87 106.68 0)
+    (property "Reference" "L3" (at 229.87 106.68 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "L_22u_1.12A_Coilcraft-MSS6132T" (at 218.44 114.3 0)
@@ -3422,7 +3422,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "L12") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -3431,7 +3431,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_1.5mm_SMD") (at 246.38 110.49 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd45ce59-1c3d-4843-8cf5-a7ea32207ace)
-    (property "Reference" "TP10" (at 248.92 105.41 90)
+    (property "Reference" "TP3" (at 248.92 105.41 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "TP_1.5mm_SMD" (at 238.76 95.25 0)
@@ -3459,7 +3459,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "TP10") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -3468,7 +3468,7 @@
   (symbol (lib_id "antmicroFixedInductors:L_470n_1A_Coilcraft-PFL1609") (at 196.85 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be47b5ab-fcfb-4a4e-ad97-0d03b56fb627)
-    (property "Reference" "L8" (at 194.31 106.68 0)
+    (property "Reference" "L5" (at 194.31 106.68 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "L_470n_1A_Coilcraft-PFL1609" (at 182.88 114.3 0)
@@ -3509,7 +3509,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "L8") (unit 1)
+          (reference "L5") (unit 1)
         )
       )
     )
@@ -3518,7 +3518,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 259.08 119.38 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7496126-b229-4df1-b2d5-18f3e7b7eca6)
-    (property "Reference" "C41" (at 258.445 114.935 90)
+    (property "Reference" "C10" (at 258.445 114.935 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_100n_0402" (at 248.92 99.06 0)
@@ -3556,7 +3556,7 @@
     (instances
       (project "gmsl-serializer"
         (path "/dbd1044a-3803-4c19-8db2-96636cba7198/48e64e6a-17fe-4036-8da5-09c7c938a7f3"
-          (reference "C41") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
