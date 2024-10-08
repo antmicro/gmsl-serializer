@@ -3847,8 +3847,8 @@
     )
   )
 
-  (text "CFG0 - I2C address config\nR1 = OPEN, R2 = 10k\naddress = 0x80"
-    (at 36.83 187.325 0)
+  (text "CFG0 - I2C address config\nR1 = OPEN, R2 = 10k\nI2C; Address = 0x40 (7-bit); \nClock= RoR"
+    (at 38.1 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2176c2bd-2543-4130-afdd-43d8397d3984)
   )
@@ -3862,7 +3862,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 284f9a7e-56cb-4081-840b-04da9a04269c)
   )
-  (text "CFG1 - GMSL mode config\nR1 = OPEN, R2 = 10k\nmode = COAX GMSL2 6Gbps"
+  (text "CFG1 - GMSL mode config\nR1 = 10k, R2 = OPEN\nmode = COAX 6Gbps; Pixel mode"
     (at 72.39 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3c95b3f8-47bd-410c-804f-d9f047f9b390)
@@ -5566,13 +5566,13 @@
     )
   )
 
-  (symbol (lib_id "antmicroResistors0402:R_80k6_0402") (at 82.55 201.93 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+  (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 82.55 201.93 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce2a8a73-49be-40d5-b240-d522e3d8451f)
-    (property "Reference" "R21" (at 84.455 198.12 90)
+    (property "Reference" "R21" (at 85.09 198.12 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Value" "R_80k6_0402" (at 95.25 181.61 0)
+    (property "Value" "R_10k_0402" (at 95.25 181.61 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 97.79 181.61 0)
@@ -5581,7 +5581,7 @@
     (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 100.33 181.61 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "CR0402-FX-8062GLF" (at 102.87 181.61 0)
+    (property "MPN" "CR0402-FX-1002GLF" (at 102.87 181.61 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Bourns" (at 105.41 181.61 0)
@@ -5593,7 +5593,7 @@
     (property "Author" "Antmicro" (at 110.49 181.61 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "80k6" (at 84.455 200.66 90)
+    (property "Val" "10k" (at 85.09 200.66 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Tolerance" "1%" (at 92.71 181.61 0)
@@ -5870,7 +5870,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 82.55 212.09 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f1d69234-a0db-4f65-9c80-74a6d2f0c59d)
     (property "Reference" "R22" (at 84.455 208.28 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
