@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -66,7 +66,17 @@
           "width": 0.187
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|129363001|89363001|c9c8b2e1-a327-4174-8cdc-f5e4b22ddc90|49978f3c-4325-48b9-ab8a-388a1a229e95",
+        "courtyards_overlap|139348999|89363001|c9c8b2e1-a327-4174-8cdc-f5e4b22ddc90|e735fcdc-acb3-417a-ab0a-3a4ed0eef887",
+        "courtyards_overlap|153017851|108870001|389f4551-728b-4f65-8261-3ba42fb2e1b8|61ebb5db-a24a-4783-8795-b207ffae1853",
+        "courtyards_overlap|153229999|108540001|41437722-dbd2-49ba-93ce-8075d0c968dc|61ebb5db-a24a-4783-8795-b207ffae1853",
+        "courtyards_overlap|160097944|116220726|61ebb5db-a24a-4783-8795-b207ffae1853|9e4fa654-41e0-45b6-8f52-14f4c8f28a5f",
+        "footprint_type_mismatch|153000000|79998000|a3b48a9d-6083-43fa-94c4-e233f1c2bd82|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|123650000|117700000|b317e6f6-910b-4aca-a14d-e16f8c6db631|a8471420-20c5-4a65-bc68-946d62cab9f9",
+        "silk_edge_clearance|123650000|86000000|b317e6f6-910b-4aca-a14d-e16f8c6db631|f439d4e9-da44-41e0-9245-e5f8b1268b62",
+        "via_dangling|145000000|118000000|08690123-447a-4728-acde-26fc96c0a57b|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -124,14 +134,14 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.125,
+        "min_connection": 0.125,
         "min_copper_edge_clearance": 0.39999999999999997,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7,
         "min_text_thickness": 0.08,
