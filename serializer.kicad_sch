@@ -6,8 +6,8 @@
 
   (title_block
     (title "GSML Serializer ")
-    (date "2024-06-19")
-    (rev "1.0.1")
+    (date "2024-10-08")
+    (rev "1.1.0")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
   )
@@ -3857,7 +3857,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 240daedb-2402-41bc-9aa0-a6fa103a3deb)
   )
-  (text "Cinx1 = 3 pF (from MAX96724 data sheet)\nCtrace = 2 pF (estimated)\nCinx2 = 1 pF (from MAX96724 data sheet)\nCL = 18 pF (from crystal data sheet)\nCx1total = Cinx1 + CL1 + Ctrace\nCx2total = Cinx2 + CL2 + Ctrace\nCL = (Cx1total * Cx2total) / (Cx1total + Cx2total)\n\nCL1 = 33 pF\nCl2 = 33 pF\nCX1total = 38 pF\nCx2total = 36 pF\nCL = 18.5 pF (meets the requirements)"
+  (text "Cinx1 = 3 pF (from MAX96717 data sheet)\nCtrace = 2 pF (estimated)\nCinx2 = 1 pF (from MAX96717 data sheet)\nCL = 18 pF (from crystal data sheet)\nCx1total = Cinx1 + CL1 + Ctrace\nCx2total = Cinx2 + CL2 + Ctrace\nCL = (Cx1total * Cx2total) / (Cx1total + Cx2total)\n\nCL1 = 33 pF\nCl2 = 33 pF\nCX1total = 38 pF\nCx2total = 36 pF\nCL = 18.5 pF (meets the requirements)"
     (at 40.64 76.2 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 284f9a7e-56cb-4081-840b-04da9a04269c)
