@@ -23,6 +23,7 @@
         "bourns-cr0402-fx-1002glf",
         "bourns-cr0402-fx-1202glf",
         "bourns-cr0402-fx-1000glf",
+        "bourns-cr0402-fx-4701glf",
         "bourns-cr0402-fx-5232glf",
         "bourns-cr0402-fx-1242glf",
         "rohm-semiconductor-pmr03ezpj000",
@@ -35,9 +36,9 @@
         "bourns-cr0402-fx-2000glf",
         "yageo-rc0402fr-071k65l",
         "diodes-incorporated-ap62301wu-7",
-        "on-semiconductor-ncp163asn330t1g",
+        "diodes-incorporated-ap7366-33w5-7",
         "texas-instruments-tlv73312pdbvt",
-        "maxim-integrated-products-max9295a",
+        "analog-devices-max96717gtj-vy",
         "abracon-abm8g-25-000mhz-18-d2y-t3"
     ],
     "stackup": {

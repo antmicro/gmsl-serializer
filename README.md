@@ -23,7 +23,6 @@ The design files were prepared in KiCad 7.
 The main project directory contains KiCad PCB project files, a LICENSE, and a README.
 The remaining files are stored in the following directories:
 
-* `img` - contains board visualization for this README
 * `doc` - contains schematics
 * `assets` - contains visual assets for showcasing the board on Antmicro [Open Hardware Portal](https://openhardware.antmicro.com)
 
