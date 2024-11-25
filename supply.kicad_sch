@@ -15036,8 +15036,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "689e3ade-f851-4755-a144-1b54d94e57cf")
-		(property "Reference" "U7"
-			(at 292.1 193.675 0)
+		(property "Reference" "U3"
+			(at 292.1 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15088,7 +15088,7 @@
 			)
 		)
 		(property "MPN" "AP62301WU-7"
-			(at 292.1 196.215 0)
+			(at 292.1 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15150,7 +15150,7 @@
 		(instances
 			(project "gmsl-serializer"
 				(path "/dbd1044a-3803-4c19-8db2-96636cba7198/a0eea618-ebab-4bb8-b0df-45f61b300adb"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
