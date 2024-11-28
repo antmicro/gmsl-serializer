@@ -10,7 +10,7 @@ This project contains open hardware design files for the GMSL Serializer Board.
 This board accepts MIPI CSI-2 signals from Antmicro's 50-pin FFC video interface and transmits the video data over GMSL2.
 The GMSL Serializer Board is powered over GMSL coaxial cable.
 
-The design files were prepared in KiCad 7.
+The design files were prepared in KiCad 8.
 
 ## Key features
 
