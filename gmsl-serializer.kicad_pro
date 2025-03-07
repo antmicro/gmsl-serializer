@@ -514,7 +514,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "SE50_outer",
+        "name": "50Ohm-se_GMSL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.187,
@@ -531,7 +531,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Z90_outer",
+        "name": "90Ohm-diff_CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
@@ -547,11 +547,11 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Z90_outer",
+        "netclass": "90Ohm-diff_CSI",
         "pattern": "**CSI.*"
       },
       {
-        "netclass": "SE50_outer",
+        "netclass": "50Ohm-se_GMSL",
         "pattern": "**SIO*"
       }
     ]
