@@ -1,6 +1,6 @@
 # GMSL Serializer Board
 
-Copyright (c) 2023-2024 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2023-2025 [Antmicro](https://www.antmicro.com)
 
 ![](assets/previews/leftT.png)
 
